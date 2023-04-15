@@ -12,10 +12,10 @@ This training is split into two parts
 
 The first part mainly aims to introduce Keras, a user-friednly, high-level API to TensorFLow. It consists of 4 parts:
 
-1. Intro to keras: What is TensorFlow? What is Keras and how can it be used to train and define models?
-2. Customizing keras models and training: Configuring our models' architecture, training params, callbacks, etc.
-3. Debugging model training:
-4. 
+1. **Intro to keras**: What is TensorFlow? What is Keras and how can it be used to train and define models?
+2. **Customizing keras models and training**: Configuring our models' architecture, training params, callbacks, etc.
+3. **Practical training tips**: How to visualize the model's performance and training progression. Intro to TensorBoard.
+4. **Using pretrained models**: What are pretrained models? Where to find them? In what ways can they be useful?
 
 ### TF 102
 
