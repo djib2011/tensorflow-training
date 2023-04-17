@@ -6,20 +6,49 @@ This training aims at teaching people the frameworks of TensorFlow and Keras fro
 
 ## Structure
 
-This training is split into two parts
+This training is split into two parts: TF101 which is more beginner friendly and TF102 where more advanced and low-level concepts will be explored.
 
 ### TF101
 
 The first part mainly aims to introduce Keras, a user-friednly, high-level API to TensorFLow. It consists of 4 parts:
 
-1. **Intro to keras**: What is TensorFlow? What is Keras and how can it be used to train and define models?
-2. **Customizing keras models and training**: Configuring our models' architecture, training params, callbacks, etc.
-3. **Practical training tips**: How to visualize the model's performance and training progression. Intro to TensorBoard.
-4. **Using pretrained models**: What are pretrained models? Where to find them? In what ways can they be useful?
+1. **Intro to keras**
+    - What is TensorFlow?
+    - What is Keras?
+    - How can we define and train Neural Networks in Keras?
+2. **Deeper customization of Keras models and training**
+    - Configuring our models: architecture, training params, regularization, etc.
+    - Configuring our models' training: losses, optimizers, metrics, callbacks, etc.
+3. **Practical training tips**
+    - Visualizing our model's performance through training with the history callback.
+    - Intro to TensorBoard.
+4. **Using pretrained models**
+    - What are pretrained models? Where to find them? 
+    - Using a HuggingFace pretrained model as an out-of-the-box classifier/feature extractor.
+    - Fine-tuning a pretrained model.
+    - Partial warm-start.
 
 ### TF 102
 
 The second part aims to introduce the lower-level native TensorFlow API and how it functions.
+
+1. **TF concepts & low-level functionality**
+    - What is a computational graph?
+    - What is the difference between eager and graph mode?
+    - What is AutoGrad?
+    - Low-level TensorFlow operations.
+2. **Custom training loops**
+    - Example defining models without the keras API.
+    - Training a model with a custom training loop (i.e. without the .fit() API).
+    - Adding custom metrics to TensorBoard.
+3. **TensorFlow Datasets**
+    - What is a data generator?
+    - How to use the TensorFlow Dataset API.
+4. **Advanced concepts**
+    - Deeper dive into the Keras API. Creating custom layers, losses, metrics, etc. How metrics work in Keras.
+    - Distributed training.
+    - Explicit device placement.
+    - Model performance optimization (distillation, quantization, pruning, etc.)
 
 ## Prerequisites
 
