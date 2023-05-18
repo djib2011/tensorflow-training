@@ -1,4 +1,6 @@
-# TensorFLow training
+# TensorFlow training
+
+> Note: This is a fairly new repo and most of the material have not been proofread yet! If you encounter any errors or typos let me know so I can fix them!
 
 ## Scope
 
